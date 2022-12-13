@@ -1,0 +1,57 @@
+Generar una miniespecificación que permita ingresar los valor de ventas de un vendedor por cada día de la semana (lunes a viernes); donde día 0 es Lunes. Usar 2 arreglos.
+
+(ventas(5),i[0-n])  // arreglo que debe ser llenado por el usuario
+(dias(5), x(20)[{a-z}, {BS}])
+dias[0]<-- "Lunes"
+dias[1]<-- "Martes"
+dias[2]<-- "Miércoles"
+dias[3]<-- "Jueves"
+dias[4]<-- "Viernes"
+
+Luego presentar un reporte así
+Lunes $130
+Martes $200
+Miércoles $190
+Jueves $200
+Viernes $100
+
+INICIO 
+(ventas(5),i[0-n])
+(dias(5), x(20)[{a-z}, {BS}])
+dias[0]<-- "Lunes"
+dias[1]<-- "Martes"
+dias[2]<-- "Miércoles"
+dias[3]<-- "Jueves"
+dias[4]<-- "Viernes"
+ indice, i[0-n]
+venta_dia, i[0-n]
+
+Para (indice <-- 0, indice < 5,1)haga 
+          <<"Ingrese la cantidad a pagar"
+          >>venta_dia
+          ventas[indice] <-- venta_dia
+Fin_Para
+
+Para (indice <-- 0, indice < 5,1)haga 
+          <<ventas[indice] + vanta_dia[indice]
+Fin_Para    
+FIN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+Dados un arreglo
+arreglo(5), i[0-n]
+arreglo[0] <-- 10
+arreglo[1] <-- 9
+arreglo[2] <-- 20
+arreglo[3] <-- 29
+arreglo[4] <-- 100
+Imprimir todos los valores del arreglo cuyo valor sea impar
+
+INICIO 
+arreglo(5), i[0-n]
+arreglo[0] <-- 10
+arreglo[1] <-- 9
+arreglo[2] <-- 20
+arreglo[3] <-- 29
+arreglo[4] <-- 100
+
+Para(indice<--0, arreglo <5, 1) haga
+          Si (arreglo[indice] MOD 2 != 0) entonces
+                    <<arreglo[indice]
+          FinSi   
+Fin_Para
+FIN
